@@ -27,7 +27,7 @@ export default function Home() {
             borderRadius: "7px",
           }}
         >
-          My Foodie POS Landing Page
+          Orders Page
         </h1>
       </Box>
       <Box sx={{ mt: 3 }}>
@@ -47,7 +47,7 @@ export default function Home() {
             Backoffice
           </Button>
         </Link>
-        <Link href={"/orders"}>
+        <Link href={"/"}>
           {" "}
           <Button
             variant="contained"
@@ -59,7 +59,7 @@ export default function Home() {
               ":hover": { bgcolor: "#90e0ef", color: "#03045e" },
             }}
           >
-            Orders
+            Landing Page
           </Button>
         </Link>
       </Box>
